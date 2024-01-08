@@ -1,0 +1,15 @@
+div {
+  p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* There are lots of ways to do this, the method above is nesting */
+/* For example, you can also do this (just to name a few)
+div p
+div > p
+.container p
+*/

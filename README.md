@@ -1,8 +1,19 @@
 # [The Odin Project](https://theodinproject.com)
 
-## Showcasing the projects completed in **The Odin Project**.
-
 ## Introduction to The Odin Project: Your Journey to Full-Stack Mastery
+
+> Some of the assignments in this course focuses on using tools and getting
+> knowledge about certain relevant topics. This collection contains the projects
+> that actually can be coded and uploaded to Github.
+
+> For a full overview of the course, visit
+> [The Odin Project](https://www.theodinproject.com/).
+
+---
+
+There is a lot of assignments that do not include creating code and files that
+can be published. This collection contains the projects that actually can be
+coded and uploaded.
 
 Embark on a transformative journey in web development with
 [The Odin Project](https://www.theodinproject.com/), a comprehensive and

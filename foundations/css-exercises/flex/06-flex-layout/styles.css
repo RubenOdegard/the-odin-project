@@ -57,6 +57,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 24px;
+  background-color: #eeeeee;
 }
 
 .left-links,

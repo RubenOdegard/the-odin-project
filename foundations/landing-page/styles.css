@@ -211,6 +211,7 @@ button {
 @media (max-width: 700px) {
   .hero-container {
     flex-direction: column;
+    padding-top: 36px;
 
     .hero-text {
       order: 2;

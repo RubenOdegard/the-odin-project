@@ -11,6 +11,7 @@ main {
 /* Nav Section */
 
 .header {
+  background: #1f2937;
   display: flex;
   flex-grow: 1;
   justify-content: center;
@@ -31,6 +32,11 @@ a {
 
 button {
   padding: 8px 16px;
+  background: #3882f6;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  border: none;
 }
 
 .nav {
@@ -41,15 +47,24 @@ button {
   max-width: 800px;
 }
 
+.nav-logo {
+  color: #f9faf8;
+}
+
 .nav-links > ul {
   display: flex;
   gap: 12px;
+
+  li > a {
+    color: #e5e7eb;
+  }
 }
 
 /* Hero Section */
 
 .hero-section {
   width: 100%;
+  background: #1f2937;
 }
 
 .hero-container {
@@ -62,12 +77,30 @@ button {
   gap: 24px;
 }
 
+.hero-text {
+  h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+  }
+  p {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+}
+
 /* Information Section */
 
 .information-section {
   width: 100%;
   text-align: center;
   padding-top: 36px;
+
+  h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+  }
 }
 
 .information-card-container {
@@ -92,7 +125,7 @@ button {
 .testimonial-section {
   width: 100%;
   text-align: center;
-  background: #eeeeee;
+  background: #e5e7eb;
   padding: 36px 0px 0px 0px;
 }
 
@@ -109,12 +142,17 @@ button {
 
 .testimonial-text {
   text-align: center;
+  font-size: 36px;
+  font-weight: 200;
+  color: #1f2937;
+  font-style: italic;
 }
 
 .testimonial-author {
   margin-top: -24px;
   margin-left: auto;
   margin-right: 24px;
+  font-weight: 700;
 }
 
 /* CTA Section */
@@ -127,7 +165,7 @@ button {
 }
 
 .cta-container {
-  background: #eeeeee;
+  background: #3882f6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,22 +180,25 @@ button {
   .cta-title {
     padding: 0px;
     margin: 0px;
+    color: #f9faf8;
   }
   .cta-text {
     padding: 8px 0px 0px 0px;
     margin: 0px;
+    color: #e5e7eb;
   }
 }
 
 .cta-button {
   margin-right: 36px;
   min-width: 100px;
+  border: 1px solid white;
 }
 
 /* Footer Section */
 
 .footer {
-  background: black;
+  background: #1f2937;
   color: white;
   display: flex;
   justify-content: center;

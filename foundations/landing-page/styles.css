@@ -29,6 +29,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  padding: 8px 16px;
+}
+
 .nav {
   display: flex;
   flex-grow: 1;
@@ -55,6 +59,7 @@ a {
   max-width: 800px;
   padding: 96px 36px;
   margin: 0 auto;
+  gap: 24px;
 }
 
 /* Information Section */
@@ -144,6 +149,11 @@ a {
   }
 }
 
+.cta-button {
+  margin-right: 36px;
+  min-width: 100px;
+}
+
 /* Footer Section */
 
 .footer {
@@ -153,4 +163,19 @@ a {
   justify-content: center;
   align-items: center;
   padding: 24px 0px;
+}
+
+/* Media Queries */
+
+@media (max-width: 700px) {
+  .hero-container {
+    flex-direction: column;
+
+    .hero-text {
+      order: 2;
+    }
+    .hero-image {
+      width: 100%;
+    }
+  }
 }

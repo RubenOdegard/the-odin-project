@@ -37,6 +37,7 @@ button {
   color: white;
   text-decoration: none;
   border: none;
+  border-radius: 6px;
 }
 
 .nav {
@@ -120,6 +121,10 @@ button {
   max-width: 150px;
 }
 
+.information-card-image {
+  border-radius: 12px;
+}
+
 /* Testimonial Section */
 
 .testimonial-section {
@@ -172,6 +177,7 @@ button {
   flex-grow: 1;
   max-width: 800px;
   margin: 0 auto;
+  border-radius: 12px;
 }
 
 .cta-text-container {

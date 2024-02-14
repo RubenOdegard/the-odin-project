@@ -5,12 +5,6 @@ let ties = 0;
 let currentRound = 1;
 
 function playRound(playerSelection, computerSelection) {
-  // Escape condition, game over.
-  if (currentRound === 6) {
-    setWinner(playerScore, computerScore);
-    return;
-  }
-
   // Tie clause
   if (playerSelection === computerSelection) {
     ties++;
@@ -37,6 +31,11 @@ function playRound(playerSelection, computerSelection) {
     updateRound();
   }
 
+  // Escape condition, game over.
+  if (currentRound === 6) {
+    setWinner(playerScore, computerScore);
+    return;
+  }
   updateScore(playerScore, computerScore);
 }
 
